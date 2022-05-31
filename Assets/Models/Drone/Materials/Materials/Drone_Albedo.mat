@@ -7,12 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pistal_Low_Material_Normal
-<<<<<<< Updated upstream
+  m_Name: Drone_Albedo
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-=======
-  m_Shader: {fileID: 10708, guid: 0000000000000000f000000000000000, type: 0}
->>>>>>> Stashed changes
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -24,7 +20,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-<<<<<<< Updated upstream
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -45,13 +40,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-=======
->>>>>>> Stashed changes
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 31aedfb8e2373ad4e929df6abf5d087d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7526a412b323ee34282f01164a641d7d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-<<<<<<< Updated upstream
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -85,9 +77,4 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-=======
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
->>>>>>> Stashed changes
   m_BuildTextureStacks: []
