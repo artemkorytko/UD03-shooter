@@ -18,8 +18,7 @@ public class MyCameraController : MonoBehaviour
     void Update()
     {
         _mouseX = Input.GetAxis("Mouse X") * sensetivity * Time.deltaTime;
-        //_mouseY = Input.GetAxis("Mouse Y") * sensetivity * Time.deltaTime;
-        _mouseY = Mathf.Clamp(Input.GetAxis("Mouse Y") * sensetivity * Time.deltaTime, -35, 35);
+        _mouseY = Mathf.Clamp(Input.GetAxis("Mouse Y"),-35,35) * sensetivity * Time.deltaTime;
         player.Rotate(_mouseX * new Vector3(0, 1, 0));
         transform.Rotate(_mouseY * new Vector3(-1, 0, 0));
         
