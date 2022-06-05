@@ -45,8 +45,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfd875efcba2d4c8e96b0502c3b819a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _levels: []
-  _uiManager: {fileID: 0}
+  _levels:
+  - {fileID: 1859452152836880753, guid: cf21f2e1111046c4dbbf1b5cc051d859, type: 3}
+  _uiManager: {fileID: 1681809529356335584, guid: 59d1cd1939d9ff84badfcb98a9f10761, type: 3}
   _bulletPool: {fileID: 7348626048024073335}
 --- !u!114 &7348626048024073335
 MonoBehaviour:
