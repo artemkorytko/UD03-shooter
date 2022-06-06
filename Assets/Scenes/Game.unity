@@ -303,10 +303,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 5070286127070640652}
-    - target: {fileID: 5999255431898329911, guid: 8f0faed053a22ac4e858c03690463e92, type: 3}
-      propertyPath: _type
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8035473745278249202, guid: 8f0faed053a22ac4e858c03690463e92, type: 3}
       propertyPath: _gameManager
       value: 
@@ -393,10 +389,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8427498817469365120, guid: 8f0faed053a22ac4e858c03690463e92, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8800722385389924004, guid: 8f0faed053a22ac4e858c03690463e92, type: 3}
-      propertyPath: _type
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
