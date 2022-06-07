@@ -751,6 +751,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 2213042113774620915, guid: fb72df23ea0c05a469377d1e4eedf391, type: 3}
+      propertyPath: _forwardSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213042113774620915, guid: fb72df23ea0c05a469377d1e4eedf391, type: 3}
+      propertyPath: _rotationSpeed
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2213042113774620917, guid: fb72df23ea0c05a469377d1e4eedf391, type: 3}
       propertyPath: m_RootOrder
       value: 23
