@@ -335,6 +335,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7803271584352723297, guid: cd68cf16b5656c5468136d343eae4555, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7803271584352723301, guid: cd68cf16b5656c5468136d343eae4555, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -559,12 +563,24 @@ PrefabInstance:
       objectReference: {fileID: 413394836}
     - target: {fileID: 541639550574442483, guid: 8ffe617067ff4894781a812ffbef1c3d, type: 3}
       propertyPath: _levels.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 541639550574442483, guid: 8ffe617067ff4894781a812ffbef1c3d, type: 3}
       propertyPath: _levels.Array.data[0]
       value: 
       objectReference: {fileID: 1859452152836880753, guid: cf21f2e1111046c4dbbf1b5cc051d859, type: 3}
+    - target: {fileID: 541639550574442483, guid: 8ffe617067ff4894781a812ffbef1c3d, type: 3}
+      propertyPath: _levels.Array.data[1]
+      value: 
+      objectReference: {fileID: 1375819105675374004, guid: a2b26d35473052944a2433c137aefe08, type: 3}
+    - target: {fileID: 541639550574442483, guid: 8ffe617067ff4894781a812ffbef1c3d, type: 3}
+      propertyPath: _levels.Array.data[2]
+      value: 
+      objectReference: {fileID: 4787387385415564640, guid: 02f6d8054ae8cee40b5ce9c9ef21184d, type: 3}
+    - target: {fileID: 541639550574442483, guid: 8ffe617067ff4894781a812ffbef1c3d, type: 3}
+      propertyPath: _levels.Array.data[3]
+      value: 
+      objectReference: {fileID: 4731332244950007278, guid: 73d3d904d438e944597bf2522759bde1, type: 3}
     - target: {fileID: 2785506168710977973, guid: 8ffe617067ff4894781a812ffbef1c3d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -615,7 +631,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7348626048024073335, guid: 8ffe617067ff4894781a812ffbef1c3d, type: 3}
       propertyPath: _resizeCount
-      value: 60
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7348626048024073335, guid: 8ffe617067ff4894781a812ffbef1c3d, type: 3}
       propertyPath: _startCounnt

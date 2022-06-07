@@ -62,5 +62,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prefab: {fileID: 7775215341765233922, guid: eab2458eb9983a245a8cb1ab9a3581b2, type: 3}
-  _startCounnt: 20
+  _startCounnt: 30
   _resizeCount: 20

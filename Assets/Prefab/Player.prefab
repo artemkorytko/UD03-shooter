@@ -446,7 +446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f6a9425d587f42b38da411ffbf2c53e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxBulletsCount: 10
+  _maxBulletsCount: 20
   _reloadTimeToBullet: 0.5
   _changeStateTime: 0.5
   _shootDelay: 0.2

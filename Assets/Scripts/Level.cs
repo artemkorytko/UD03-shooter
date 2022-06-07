@@ -80,9 +80,10 @@ public class Level : MonoBehaviour
         if (_aliveEnemiesCount == 0)
         {
             OnGameEnded?.Invoke(EGameResult.Win);
+            Unsubscribe();
         }
 
-        Unsubscribe();
+        //Unsubscribe();
     }
 
     private void SetEnemiesState(bool state)
