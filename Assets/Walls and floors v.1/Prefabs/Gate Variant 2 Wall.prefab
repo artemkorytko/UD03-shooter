@@ -84,6 +84,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate Variant 2 Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 5079267701934773876, guid: 223c3537591534e049ea27729f725c99, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7862789878572250641, guid: 223c3537591534e049ea27729f725c99, type: 3}
       propertyPath: m_RootOrder
       value: 0
