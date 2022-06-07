@@ -314,18 +314,18 @@ PrefabInstance:
     - target: {fileID: 7372434930488141369, guid: cd68cf16b5656c5468136d343eae4555, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1550005425}
     - target: {fileID: 7372434930488141369, guid: cd68cf16b5656c5468136d343eae4555, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7372434930488141369, guid: cd68cf16b5656c5468136d343eae4555, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: MainMenuButton
       objectReference: {fileID: 0}
     - target: {fileID: 7372434930488141369, guid: cd68cf16b5656c5468136d343eae4555, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.MonoBehaviour, UnityEngine
+      value: UIManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7372434930488141369, guid: cd68cf16b5656c5468136d343eae4555, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -422,14 +422,14 @@ PrefabInstance:
     - target: {fileID: 8565944657446700247, guid: cd68cf16b5656c5468136d343eae4555, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1550005425}
     - target: {fileID: 8565944657446700247, guid: cd68cf16b5656c5468136d343eae4555, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: MainMenuButton
       objectReference: {fileID: 0}
     - target: {fileID: 8565944657446700247, guid: cd68cf16b5656c5468136d343eae4555, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UIPanel, Assembly-CSharp
+      value: UIManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8565944657446700247, guid: cd68cf16b5656c5468136d343eae4555, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
