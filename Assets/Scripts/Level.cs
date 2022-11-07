@@ -1,27 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using System;
+using Unity.AI.Navigation;
+
 
 public class Level : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private PlayerController _player = null;
-    [SerializeField] private List<EnemyController> _enemies = null;
+    [SerializeField] private List<NewEnemyAI> _enemies = null;
 
     private int _aliveEnemiesCount = 0;
 
     public float PlayerHealth => _player.HealthValue;
     public Action<EGameResult> OnGameEnded = null;
-
+    
     public void StartLevel(BulletPool pool, bool init = false)
     {
+
         if (init) InitEntities(pool);
 
         Subcribe();
 
         _player.IsActive = true;
-
         _aliveEnemiesCount = _enemies.Count;
         SetEnemiesState(true);
     }
@@ -71,7 +72,7 @@ public class Level : MonoBehaviour
         Unsubscribe();
     }
 
-    private void OnEnemyDie(EnemyController enemy)
+    private void OnEnemyDie(NewEnemyAI enemy)
     {
         enemy.OnDie -= OnEnemyDie;
 
@@ -80,9 +81,8 @@ public class Level : MonoBehaviour
         if (_aliveEnemiesCount == 0)
         {
             OnGameEnded?.Invoke(EGameResult.Win);
+            Unsubscribe();
         }
-
-        Unsubscribe();
     }
 
     private void SetEnemiesState(bool state)
