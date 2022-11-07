@@ -16,7 +16,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _rotationSpeed = 0f;
     [SerializeField] private float _distanceToGround = 0.1f;
 
-    [Header("References")]
+    [Header("References")] 
+    [SerializeField] private PlayerAnimationController _animationController;
     [SerializeField] private Transform _camera = null;
     [SerializeField] private Weapon _weapon = null;
     [SerializeField] private BulletPool _pool = null;
@@ -86,7 +87,10 @@ public class PlayerController : MonoBehaviour
     {
         if (!_inputHandler.IsFireHold()) return;
 
-        if (_weapon != null) _weapon.Shoot();
+        if (_weapon != null)
+        {
+            _weapon.Shoot();
+        }
     }
 
     private void UpdateMovement()
@@ -94,6 +98,10 @@ public class PlayerController : MonoBehaviour
         Vector3 movementDirection = transform.TransformDirection(_inputHandler.GetMovementVector());
 
         _controller.Move(_forwardSpeed * Time.deltaTime * movementDirection);
+
+        float velocity = Math.Abs(movementDirection.x + movementDirection.z);
+
+        _animationController.SetVelocity(velocity);
     }
 
     private void UpdateLook()

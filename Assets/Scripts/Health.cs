@@ -5,6 +5,8 @@ using System;
 
 public class Health : MonoBehaviour
 {
+    [SerializeField] private Collider hitBox;
+    
     public Action OnDie = null;
 
     private float _maxValue = 0f;
@@ -32,6 +34,7 @@ public class Health : MonoBehaviour
     public void Reset()
     {
         _currentValue = _maxValue;
+        if (hitBox) hitBox.enabled = true;
         _isDead = false;
     }
 
@@ -55,6 +58,7 @@ public class Health : MonoBehaviour
         if (_currentValue == 0)
         {
             _isDead = true;
+            if(hitBox) hitBox.enabled = false;
             OnDie?.Invoke();
         } 
     }
